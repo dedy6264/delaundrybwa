@@ -1,0 +1,11 @@
+$users = [
+            [
+                'username' => 'blacknumbers',
+                'email' => 'number@gmail.com',
+                'password' => Hash::make('12345678'),
+            ],
+        ];
+
+        foreach ($users as $userItem) {
+            User::create($userItem);
+        }
