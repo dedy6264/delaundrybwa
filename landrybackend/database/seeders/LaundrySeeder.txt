@@ -1,3 +1,5 @@
+<?php
+class 
 $laundries = [
             [
                 'claim_code' => 'sakjhsaiu',
@@ -94,3 +96,4 @@ $laundries = [
         foreach ($laundries as $laundry) {
             Laundry::create($laundry);
         }
+        ?>
